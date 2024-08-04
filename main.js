@@ -35,8 +35,9 @@ function multiplyArray() {
 }
 
 function sumArray() {
-  let sumList = mutlipliedList.reduce((previousValue, currentValue) => {
+  let sumList = list.reduce((previousValue, currentValue) => {
     return previousValue + currentValue;
   });
-  console.log(sumList);
+  list = sumList;
+  console.log(list);
 }
