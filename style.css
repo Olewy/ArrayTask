@@ -5,3 +5,13 @@ div {
 button {
   margin-left: 0.5rem;
 }
+
+h2 {
+  font-size: 1.2rem;
+}
+
+#array {
+  color: blue;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}
