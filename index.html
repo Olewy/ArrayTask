@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array-Aufgabenstellung</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      add content: <input id="addInput" type="text" /><button
+        onclick="addArrayElement()"
+      >
+        add
+      </button>
+    </div>
+    <div>
+      delete by ID: <input id="removeInput" type="number" /><button
+        onclick="deleteElementByPositon()"
+      >
+        delete
+      </button>
+    </div>
+    <div>
+      delete by Content/Value : <input id="removeInput2" type="text" /><button
+        onclick="deletElementByValue()"
+      >
+        delete
+      </button>
+    </div>
+    <button onclick="showArray()">show</button>
+    <button onclick="multiplyArray()">multiply</button>
+    <button onclick="sumArray()">sum</button>
+    <script lang="JavaScript" type="text/JavaScript" src="main.js"></script>
+  </body>
+</html>
