@@ -16,7 +16,7 @@ function addArrayElement() {
 
 function deleteElementByPositon() {
   let deleteElement = Number(document.getElementById("removeInput").value);
-  list.splice(deleteElement, 1);
+  list.splice(deleteElement - 1, 1);
   console.log(list);
   updateArrayVisually();
 }
